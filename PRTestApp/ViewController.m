@@ -25,7 +25,8 @@
 }
 
 - (IBAction)buttonPress:(id)sender {
-    [self performSelector:@selector(die_die)];
+    // Rock the crashbah
+    @throw NSInternalInconsistencyException;
 }
 
 @end
